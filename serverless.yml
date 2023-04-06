@@ -4,6 +4,8 @@ provider:
   name: aws
   runtime: nodejs14.x
   region: us-east-1
+  environment:
+    DEPLOY_USER: jihenaor
   iam:
     role:
       statements:
